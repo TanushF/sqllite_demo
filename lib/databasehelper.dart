@@ -33,6 +33,7 @@ class DatabaseHelper {
       },
       version: 1,
     );
+    print(path);
   }
 
   Future<int> insertUser(User user) async {
